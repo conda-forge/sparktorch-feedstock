@@ -1,5 +1,5 @@
 {% set name = "sparktorch" %}
-{% set version = "0.1.2" %}
+{% set version = "0.2.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/sparktorch-{{ version }}.tar.gz
-  sha256: 024ad19dd3543ae881ca8448c462bae4cbf86eaee5ff53b1d52262c3dd733626
+  sha256: e31026a95846e7869d08de6e60c3e170eaf4c2c052d709bd2200977c0ec5f317
 
 build:
   noarch: python
