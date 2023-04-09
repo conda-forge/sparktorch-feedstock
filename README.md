@@ -1,11 +1,11 @@
-About sparktorch
-================
+About sparktorch-feedstock
+==========================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/sparktorch-feedstock/blob/main/LICENSE.txt)
 
 Home: https://github.com/dmmiller612/sparktorch
 
 Package license: MIT
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/sparktorch-feedstock/blob/main/LICENSE.txt)
 
 Summary: Deep learning on Apache Spark with Pytorch
 
