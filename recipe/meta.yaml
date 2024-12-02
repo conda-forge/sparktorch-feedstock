@@ -6,7 +6,7 @@ package:
   version: {{ version }}
 
 source:
-  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/sparktorch-{{ version }}.tar.gz
+  url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/sparktorch-{{ version }}.tar.gz
   sha256: e31026a95846e7869d08de6e60c3e170eaf4c2c052d709bd2200977c0ec5f317
 
 build:
