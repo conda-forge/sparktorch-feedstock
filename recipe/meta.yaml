@@ -16,10 +16,10 @@ build:
 
 requirements:
   host:
-    - python >=3.7,<3.11
+    - python {{ python_min }}
     - pip
   run:
-    - python >=3.7,<3.11
+    - python >={{ python_min }},<3.11
     - pytorch >=1.3.0
     - flask
     - requests
@@ -33,6 +33,7 @@ test:
     - pip check
   requires:
     - pip
+    - python {{ python_min }}
 
 about:
   home: https://github.com/dmmiller612/sparktorch
